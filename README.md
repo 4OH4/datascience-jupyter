@@ -3,9 +3,9 @@
 # datascience-jupyter
 Lightweight Docker-based Python environment for data science with Jupyter notebooks
 
-This repository is designed so that you can customise the Python environment using the `requirements.txt` file - if you don't need that, just use the (standard Jupyter images)[https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html].
+This repository is designed so that you can customise the Python environment using the `requirements.txt` file - if you don't need that, just use the [standard Jupyter images](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html).
 
-For a more heavy-weight solution with lots of useful extensions, look at (ML Workspace)[https://github.com/ml-tooling/ml-workspace].
+For a more heavy-weight solution with lots of useful extensions, look at [ML Workspace](https://github.com/ml-tooling/ml-workspace).
 
 ## Installation and setup
 
@@ -29,7 +29,7 @@ If you change the image, you will need to rebuild the container before bringing 
     docker-compose build
     docker-compose up -d
 
-More info on the different Jupyter images can be found here: (https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)[https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html]
+More info on the different Jupyter images can be found here: [https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html).
 
 The Python environment can be customised by adding to the `requirements.txt`, or alternatively using a Conda `.yml` enivronment file - uncomment the relevant lines in the `Dockerfile`.
 
