@@ -1,0 +1,15 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+# other required packages:
+#  - scikit-learn
+# or, import the whole Anaconda setup:
+#  - anaconda
+# load packages from Pip rather than Conda
+  - pip
+  - pip:
+    - opencv-python
+
